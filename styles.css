@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+/*logo del navegador*/
+#logo {
+    display: inline-block;
+    vertical-align: middle;
+    width: 70px;
+    padding-left: 0.5px;  
+}
+
+/*Barra de navegación*/
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 8px;
+    overflow: hidden;
+    background-color: rgb(235, 170, 49);
+    
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: rgb(15, 15, 15);
+    text-align: right;
+    text-decoration: none;
+    font-size: 20px;
+    margin-right: 249px;
+    margin-left: 140;
+    float: right;
+    padding-left: 5px;
+    padding-right: 0.5px;
+}
+    
+    
+li a:hover {
+    background-color: rgb(209, 21, 21);
+}
+
+
+/*fondo del home*/
+
+.flex {
+    background-position: 50%;
+    display: flex;
+    flex-direction: row;
+    background:linear-gradient( to left, black,black,rgb(19, 18, 18),rgb(238, 238, 240));
+    height: 100vh;
+    padding: 2em 5vw 0.25em;
+    position: relative;
+    z-index: 3;
+    
+
+}
+
+/*caracteristcas de imagen de home*/
+.imagenHome {
+    
+    background-repeat: no-repeat;
+    height: 800px;
+    background-repeat: no-repeat;
+    background-size:auto;
+    height: 100%;
+    left: 55%;
+    width: 200%;
+}
+
+img src {
+    width: 350px;
+    opacity: 50%;
+    border-radius: 5px;
+    padding-left: 285px;
+}
+
+div{
+    background-repeat: no-repeat;
+    opacity: 0.9;
+    margin-top: 1px;
+    padding-top: 0px;  
+    background-position: right;
+    background-size: 5%;
+}
+
+    
+
+/*Diseño del main:  titulo*/
+h1 {
+    font-family: 'Anton', sans-serif;
+    letter-spacing: 10px;
+    text-align:left;
+    width: 500px;
+    padding-top: 150px;
+    padding-left: 350px;
+    color: rgb(253, 249, 249);
+    font-size: 80px;
+    margin: 1px;
+
+}
+
+/*Diseño del main: parrafo*/
+#fuente {
+    text-align:left;
+    width: 500px;
+    padding-top: 150px;
+    padding-left: 350px;
+    font-size: 20px;
+    font-family: 'EB Garamond', serif;
+    color: rgb(248, 245, 245);
+
+}
+
+
+/*Color del fondo*/
+body{
+    background-color: black;
+}
+
+
+/*Diseño de secciones*/
+h2 {
+    font-family: 'EB Garamond', serif;
+    color: rgb(231, 228, 228);
+    font-size: 20px;
+    letter-spacing: 5px;
+    text-indent: 1px;
+    margin-left: 250px;
+    margin-right: 250px;
+    
+    
+}
+
+h3 {
+    font-family: 'EB Garamond', serif;
+    color: rgb(231, 228, 228);
+    font-size: 20px;
+    letter-spacing: 5px;
+    margin-left: 250px;
+    margin-right: 250px;
+    
+   
+}
+
+p {
+    font-family: 'EB Garamond', serif;
+    text-align: justify;
+    color: rgb(231, 228, 228);
+    font-size: 20px;
+    letter-spacing: 3px; 
+   
+}
+
+/*Margen del texto del contenido*/
+.contenido {
+    margin-left: 250px;
+    margin-right: 250px;
+}
+
+img{
+    margin-right: 550px;
+}
+
+
+
+/*Estilo pie de la página*/
+.pie {
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+    color: darkslategray;
+}
+
+footer {
+    background-color: indianred;
+    
+}
